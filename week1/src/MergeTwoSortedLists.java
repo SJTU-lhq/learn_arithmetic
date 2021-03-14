@@ -1,7 +1,7 @@
 /**
  * 将两个升序链表合并为一个新的 升序 链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。
  */
-public class Ex2 {
+public class MergeTwoSortedLists {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         /*
         用一个头先连接l1和l2中小的那个的节点头，然后慢慢比较较小的添进新的链表中

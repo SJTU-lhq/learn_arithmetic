@@ -12,7 +12,7 @@ import java.util.HashMap;
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 
-public class Ex6 {
+public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
         //暴力循环查找第二次找到target -sums[i]的时候会很慢，所以选择hashmap
         HashMap<Integer, Integer> map = new HashMap<>();

@@ -7,7 +7,7 @@
  * 链接：https://leetcode-cn.com/problems/merge-sorted-array
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class Ex5 {
+public class MergeSortedArray {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         /*
         思路：因为nums1长，后边的空间多，适合从nums1后边开始处理

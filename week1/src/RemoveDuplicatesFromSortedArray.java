@@ -7,7 +7,7 @@
  * 链接：https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class Ex4 {
+public class RemoveDuplicatesFromSortedArray {
     public int removeDuplicates(int[] nums) {
         /*
             因为有序，所以重复的一定相邻，那么用两个指针可以完成

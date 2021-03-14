@@ -9,7 +9,7 @@
  * 链接：https://leetcode-cn.com/problems/plus-one
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class Ex1 {
+public class PlusOne {
     public int[] plusOne(int[] digits) {
         //正常循环，从个位开始+1
         for (int i = digits.length - 1; i >= 0 ; i--) {
