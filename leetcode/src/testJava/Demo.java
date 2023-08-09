@@ -12,6 +12,10 @@ public class Demo {
         //wy.start();
         wy.test();
         wy.test1();
+
+        int[] arr = new int[]{1,2,3};
+        int[][] arr1 = new int[][]{{1,2},{2},{3}};
+
     }
 
     public static class Wy{
