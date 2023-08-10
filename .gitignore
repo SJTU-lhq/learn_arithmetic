@@ -1,0 +1,64 @@
+################
+# IntelliJ IDEA #
+#################
+.idea/
+*.iml
+classes/
+out/
+
+###########
+# Eclipse #
+###########
+.classpath
+.project
+.settings
+
+###########
+# VS Code #
+###########
+bin/main
+bin/test
+*/bin/main
+*/bin/test
+.vscode/
+
+#######
+# SVN #
+#######
+.svn/
+
+###########
+# Project #
+###########
+lib/
+log/
+data/
+cut_data/
+running/
+
+########
+# Java #
+########
+*.class
+
+##########
+# Python #
+##########
+*.pyc
+
+##########
+# sqlite #
+##########
+*.db
+
+#######
+# log #
+#######
+*.log
+
+##########
+# gradle #
+##########
+.gradle/
+build/
+.gradletasknamecache
