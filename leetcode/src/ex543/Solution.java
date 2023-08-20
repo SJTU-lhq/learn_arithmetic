@@ -6,9 +6,22 @@ package ex543;
  * @date 2023/8/18 10:24
  */
 public class Solution {
+    int max;
     public int diameterOfBinaryTree(TreeNode root) {
-        return 0;
+        max = 0;
+        length(root);
+        return max;
     }
+    public int length(TreeNode root){
+        if (root == null) {
+            return 0;
+        }
+        int left = length(root.left);
+        int right = length(root.right);
+        max = Math.max(max, left + right);
+        return Math.max(left, right) + 1;
+    }
+
     public static class TreeNode {
         int val;
         TreeNode left;
